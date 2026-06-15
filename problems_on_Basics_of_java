@@ -74,3 +74,111 @@ class main
         }
     }
 }
+
+5. Print Multiplication Table
+CODE :
+ public class Table {
+    public static void main(String[] args) {
+        int num = 5;
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + " x " + i + " = " + (num * i));
+        }
+    }
+}
+
+6. Factorial of a Number
+CODE :
+    public class Factorial {
+    public static void main(String[] args) {
+        int n = 5;
+        long fact = 1;
+
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+
+        System.out.println("Factorial = " + fact);
+    }
+}    }
+    }
+}
+
+7. Reverse a Number
+CODE :
+ public class ReverseNumber {
+    public static void main(String[] args) {
+        int num = 1234;
+        int reverse = 0;
+
+        while (num != 0) {
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+            num /= 10;
+        }
+
+        System.out.println("Reversed Number = " + reverse);
+    }
+}
+
+8. Check Prime Number
+CODE :
+    class Main
+{
+    public static void main(String args[])
+    {
+        int n=3;
+        int c=0;
+        for(int i=1;i<=n;i++)
+        {
+          if(n%i==0)
+          {
+              c++;
+          }
+        }
+        if(c==2)
+        {
+            System.out.println("prime");
+        }
+        else
+        {
+            System.out.println("not a prime");
+        }  
+    }
+}
+
+9. Fibonacci Series
+CODE :
+  public class Fibonacci {
+    public static void main(String[] args) {
+        int n = 10;
+        int a = 0, b = 1;
+
+        System.out.print("Fibonacci Series: ");
+
+        for (int i = 1; i <= n; i++) {
+            System.out.print(a + " ");
+            int next = a + b;
+            a = b;
+            b = next;
+        }
+    }
+}
+
+
+10. Sum of Digits 
+CODE :
+  public class SumOfDigits {
+    public static void main(String[] args) {
+        int num = 1234;
+        int sum = 0;
+
+        while (num != 0) {
+            sum += num % 10;
+            num /= 10;
+        }
+
+        System.out.println("Sum of Digits = " + sum);
+    }
+}
+  
