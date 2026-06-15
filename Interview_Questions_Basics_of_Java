@@ -1,2 +1,41 @@
 1. What is Java?
 Answer:     Java is a high-level, object-oriented, platform-independent programming language developed by Sun Microsystems (now owned by Oracle Corporation).
+
+2. Why is Java platform-independent?
+Answer:    Java source code is compiled into bytecode, which can run on any operating system that has a JVM (Java Virtual Machine).  Write Once, Run Anywhere (WORA).
+
+3. What is JVM?
+Interview Answer:    JVM (Java Virtual Machine) is the runtime engine that executes Java bytecode. It provides platform independence by allowing the same bytecode to run on different operating systems that have a JVM installed.
+# Responsibilities of JVM:
+Loads Java classes
+Verifies bytecode
+Executes bytecode
+Manages memory (Heap, Stack)
+Performs Garbage Collection
+
+4. What is JRE?
+Interview Answer:   JRE is a package that contains JVM and the necessary libraries required to run Java applications. It does not contain development tools like the Java compiler.
+# JRE Contains:
+JVM
+Core Java libraries
+Supporting files required for execution
+
+5. What is JDK?
+Interview Answer:   JDK is a complete Java development package that contains JRE, JVM, and development tools such as the Java compiler, debugger, and documentation generator. It is used by developers to create Java applications.
+# JDK Contains:
+JRE
+JVM
+Compiler (javac)
+Debugger
+Documentation tools
+Other development utilities
+
+| JDK                           | JRE                       | JVM                              |
+| ----------------------------- | ------------------------- | -------------------------------- |
+| Used to develop Java programs | Used to run Java programs | Used to execute bytecode         |
+| Contains compiler (`javac`)   | No compiler               | No compiler                      |
+| Contains JRE and JVM          | Contains JVM              | Runtime engine only              |
+| Used by developers            | Used by users             | Used internally during execution |
+
+One-line answer for freshers :     "JDK is used to develop Java applications, JRE is used to run Java applications, and JVM is the engine that executes Java bytecode. JDK contains JRE, and JRE contains JVM."
+
