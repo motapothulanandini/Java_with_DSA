@@ -1,0 +1,26 @@
+1.# Hello World
+   class Main
+   {
+      public static void main(String args[])                        #output:    Hello World
+      {
+          System.out.println("Hello world");                             
+      }
+   }   
+
+   2.ADD TWO NUMBERS
+     class Main
+     {
+        public static void main(String args[])                                     #outpu:   30
+        {
+             int a=10,b=20;
+             int c=a+b;
+             System.out.println(c);
+        }
+     }   
+
+     3.EVEN OR ODD
+     class main
+     {
+       public static void main(String args[])
+       {
+           
