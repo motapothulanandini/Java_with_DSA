@@ -1,6 +1,7 @@
 1. What is Java?
 Theory
-   Java is a high-level, object-oriented, platform-independent programming language.
+     Java is a high-level, object-oriented, platform-independent programming language. 
+      Java code is compiled into bytecode, which can run on any system that has a JVM.
 Features:
 Simple
 Secure
@@ -8,3 +9,80 @@ Robust
 Platform Independent
 Object-Oriented
 
+2. Why is Java called Platform Independent?
+Theory
+     Java source code is compiled into bytecode. The bytecode is executed by the JVM,
+      which is available for different operating systems.
+
+3. What is JVM?
+Theory
+   JVM (Java Virtual Machine) is a virtual machine that 
+   executes Java bytecode and converts it into machine code.
+
+4. What is JRE?
+Theory
+    JRE (Java Runtime Environment) provides everything required to run Java applications.
+It contains:
+JVM
+Java Libraries
+Runtime files
+
+5. What is JDK?
+Theory
+    JDK (Java Development Kit) is used to develop Java applications.
+It contains:
+JRE
+JVM
+Compiler (javac)
+Debugging tools
+
+6. What is a Class?
+Theory
+      A class is a blueprint or template used to create objects.
+
+7. What is an Object?
+Theory
+     An object is an instance of a class.
+
+8. What is OOP?
+Theory
+    OOP (Object-Oriented Programming) is a programming approach that organizes code using objects and classes.
+Main Pillars:
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+
+9. What is Encapsulation?
+Theory
+    Encapsulation means binding data and methods together into a 
+     single unit and restricting direct access to data.
+
+10. What is Inheritance?
+Theory
+    Inheritance allows a child class to acquire the properties and methods of a parent class.
+
+11. What is Polymorphism?
+Theory
+      Polymorphism means "one action, many forms."
+Types:
+Method Overloading
+Method Overriding
+
+12. What is Abstraction?
+Theory
+    Abstraction hides implementation details and shows only essential functionality.
+
+13. Difference Between = and ==
+Theory
+= → Assignment Operator
+== → Comparison Operator
+
+14. Why are Strings Immutable?
+Theory
+     Once a String object is created, its value cannot be changed.
+
+15. Difference Between == and equals()
+Theory
+== compares references.
+equals() compares contents.
