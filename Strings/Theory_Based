@@ -1,0 +1,19 @@
+1. What is a String?
+Theory :        A string is a sequence of characters used to represent textual data. It can contain letters, digits, symbols, and spaces.
+Internal Working:-
+Most programming languages store strings as an array of characters in memory.
+Example:
+HELLO
+Index: 0 1 2 3 4
+Chars: H E L L O
+
+2. Why Are Strings Important?
+Theory:
+Almost every software application processes text.
+Applications
+Search engines
+Web applications
+Chat systems
+Password validation
+DNA sequence analysis
+Compilers
